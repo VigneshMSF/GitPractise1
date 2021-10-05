@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="200" started-at="2021-09-08T13:08:42Z" finished-at="2021-09-08T13:08:42Z">
+    <groups>
+      <group name="reg">
+        <method signature="SampleA.tc2()[pri:0, instance:com.hexa.SampleA@6d4b1c02]" name="tc2" class="com.hexa.SampleA"/>
+      </group> <!-- reg -->
+      <group name="smoke">
+        <method signature="SampleA.tc3()[pri:0, instance:com.hexa.SampleA@6d4b1c02]" name="tc3" class="com.hexa.SampleA"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="SampleA.tc1()[pri:0, instance:com.hexa.SampleA@6d4b1c02]" name="tc1" class="com.hexa.SampleA"/>
+        <method signature="SampleA.tc5()[pri:0, instance:com.hexa.SampleA@6d4b1c02]" name="tc5" class="com.hexa.SampleA"/>
+      </group> <!-- sanity -->
+      <group name="E2E">
+        <method signature="SampleA.tc4()[pri:0, instance:com.hexa.SampleA@6d4b1c02]" name="tc4" class="com.hexa.SampleA"/>
+      </group> <!-- E2E -->
+    </groups>
+    <test name="Test" duration-ms="200" started-at="2021-09-08T13:08:42Z" finished-at="2021-09-08T13:08:42Z">
+      <class name="com.hexa.SampleA">
+        <test-method status="PASS" signature="tc1()[pri:0, instance:com.hexa.SampleA@6d4b1c02]" name="tc1" duration-ms="28" started-at="2021-09-08T13:08:42Z" finished-at="2021-09-08T13:08:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc1 -->
+        <test-method status="PASS" signature="tc2()[pri:0, instance:com.hexa.SampleA@6d4b1c02]" name="tc2" duration-ms="6" started-at="2021-09-08T13:08:42Z" finished-at="2021-09-08T13:08:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc2 -->
+        <test-method status="PASS" signature="tc3()[pri:0, instance:com.hexa.SampleA@6d4b1c02]" name="tc3" duration-ms="7" started-at="2021-09-08T13:08:42Z" finished-at="2021-09-08T13:08:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc3 -->
+        <test-method status="PASS" signature="tc4()[pri:0, instance:com.hexa.SampleA@6d4b1c02]" name="tc4" duration-ms="3" started-at="2021-09-08T13:08:42Z" finished-at="2021-09-08T13:08:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc4 -->
+        <test-method status="PASS" signature="tc5()[pri:0, instance:com.hexa.SampleA@6d4b1c02]" name="tc5" duration-ms="3" started-at="2021-09-08T13:08:42Z" finished-at="2021-09-08T13:08:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc5 -->
+      </class> <!-- com.hexa.SampleA -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
